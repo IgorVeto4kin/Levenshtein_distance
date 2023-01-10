@@ -22,7 +22,6 @@ def Levenshtein_distance(str_1, str_2 : str):
 if __name__ == "__main__":
     input_file_name = sys.argv[1]
     output_file_name = sys.argv[2]
-print(input_file_name, output_file_name)
 file_in = open(input_file_name, "r")
 file_out = open(output_file_name, "w")
 for line in file_in:
